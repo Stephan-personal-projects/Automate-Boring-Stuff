@@ -21,3 +21,7 @@ For now, I'll be listing my notes below in this readme file. If it becomes probl
   -  An interesting topic this chapter went over is the "truthy" and "falsey" values as a different way to allow people reviewing your code to understand conditions in your loops, such as instead of using " variable != (value) " comparison, you could put " not (variable) " and make the variable an empty string or equal to 0
   -  Some new concepts I learned include the range function and its arguments, importing modules, 
      - The importing module section seems like its the same as using " include < __ > " in c++
+
+# Chapter 3 notes
+
+-
