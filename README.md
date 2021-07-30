@@ -24,4 +24,6 @@ For now, I'll be listing my notes below in this readme file. If it becomes probl
 
 # Chapter 3 notes
 
--
+- This chapter covers concepts related to functions 
+  - To create a function you would start with the def statement (ex, def function_one():)
+  - Like in C++, we can add parameters inside of the parantheses of the function.
