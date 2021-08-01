@@ -1,5 +1,6 @@
 # Automate-Boring-Stuff
 For now, I'll be listing my notes below in this readme file. If it becomes problematic or clunky, I'll most likely move it to a different file.
+Something to keep in mind is this readme file and most, if not all, of the python files will not meet the standards of many style guides, like limiting each line to 80 chars, etc.
 
 # Chapter 1 notes
 
@@ -26,4 +27,12 @@ For now, I'll be listing my notes below in this readme file. If it becomes probl
 
 - This chapter covers concepts related to functions 
   - To create a function you would start with the def statement (ex, def function_one():)
-  - Like in C++, we can add parameters inside of the parantheses of the function.
+  - Like in C++:
+    - we can add arguments inside of the parantheses of the function
+    - variables are "forgotten" after leaving a function
+    - The return keyword can be used to obtain a specific value
+  - A new concept I learned, or at least was not covered when I was learning C++, is keyword arguments used to manipulate how functions execute
+    - like print(__ , end='') signifies the program to print something with no newline at the end
+- Another topic this chapter covers is call stack and scope of a function
+  - So far, it seems like it works as how I learned it in C++, meaning functions don't need to end for another one to start, there is a difference between global and local variables, both variables are "forgotten" when their scope ends, etc.
+  - 
