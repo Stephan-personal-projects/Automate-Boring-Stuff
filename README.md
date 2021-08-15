@@ -35,4 +35,8 @@ Something to keep in mind is this readme file and most, if not all, of the pytho
     - like print(__ , end='') signifies the program to print something with no newline at the end
 - Another topic this chapter covers is call stack and scope of a function
   - So far, it seems like it works as how I learned it in C++, meaning functions don't need to end for another one to start, there is a difference between global and local variables, both variables are "forgotten" when their scope ends, etc.
+- Another concept that I believe was helpful for easily reading code is the global statement, I believe c++ did not have some indicator that you are specifically interacting with a global variable
+  - However, I noticed the example using a global and local variable with the same name in a function, but attempting to print it before assigning it its local value ending in an error was interesting. I am not sure why python does not instead fall back to using the global variable's value, but it seems like it is just a rule to keep in mind
+- The Try and Except statements reminded me of a switch statement or if else statements since you are making certain conditions result in specific outcomes
+  - In the example they include of a program dividing 42 by the user's input, an input of 0 would result in a "ZeroDivisionError", and so they use the Except statements to print "Error: invalid argument" if the user attempts to divide by 0. It seems similar to an if else statement because they could have also put if the int is less than or greater than 0, then divide or else print out the error message
   - 
